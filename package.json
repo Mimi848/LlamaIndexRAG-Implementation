@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Llama index RAG model implementation",
   "main": "vectorIndexLocal.ts",
+  "scripts": {
+    "start": "tsx vectorIndexLocal.ts",
+    "dev": "tsx --watch vectorIndexLocal.ts"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.2.1",
