@@ -1,0 +1,16 @@
+{
+  "name": "llamaIndexRAG",
+  "version": "1.0.0",
+  "description": "Llama index RAG model implementation",
+  "main": "vectorIndexLocal.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@llamaindex/huggingface": "^0.1.26",
+    "@llamaindex/ollama": "^0.1.20",
+    "llamaindex": "^0.11.26"
+  }
+}
